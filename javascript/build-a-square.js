@@ -8,5 +8,3 @@ function generateShape(int){
   }
   return square.slice(0,-1)
 }
-
-generateShape(5)
