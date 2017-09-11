@@ -1,8 +1,3 @@
 function reverseWords(str){
-  arrayOfStrings = str.split(" ")
-  reversed = arrayOfStrings.reverse()
-  reversedString = reversed.join(" ")
-  return reversedString
+  return str.split(" ").reverse().join(" ")
 }
-
-reverseWords("Hello World!")
