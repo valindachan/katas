@@ -2,7 +2,7 @@ def two_highest(list)
   two_highest = []
   if list.empty?
     return two_highest
-  elsif list.all? {|i| i.is_a?(Integer) }
+  elsif list[0].is_a?(Integer)
     first_highest = 0
     second_highest = 0
     for i in list
